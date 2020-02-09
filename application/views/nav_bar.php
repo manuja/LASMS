@@ -54,13 +54,19 @@
                   <p>Supplier/Credioters Reg.</p>
                 </a>
               </li>
+              <li class="nav-item">
+                <a href="pages/layout/boxed.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>User Registration</p>
+                </a>
+              </li>
             </ul>
           </li>
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-shopping-bag"></i>
               <p>
-                Detters Transactions
+                Depters Transactions
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
@@ -68,19 +74,25 @@
               <li class="nav-item">
                 <a href="pages/layout/top-nav.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Stock Out</p>
+                  <p>Generate Invoice</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="pages/layout/top-nav.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Stock Return</p>
+                  <p>Invoice Cancelation</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="pages/layout/top-nav.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Item Return</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="pages/layout/boxed.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Payments</p>
+                  <p>Depter Payments Mgt.</p>
                 </a>
               </li>
             </ul>
@@ -97,19 +109,19 @@
               <li class="nav-item">
                 <a href="pages/layout/top-nav.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Stock In</p>
+                  <p>Issue a Voucher</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="pages/layout/top-nav.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Stock Return</p>
+                  <p>Cancel a Voucher</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="pages/layout/boxed.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Payments</p>
+                  <p>Creditor Payments Mgt.</p>
                 </a>
               </li>
             </ul>

@@ -29,7 +29,7 @@
               <div class="inner">
                 <h3>150</h3>
 
-                <p>Daily Purchases</p>
+                <p>Daily Depters Transaction</p>
               </div>
               <div class="icon">
                 <i class="ion ion-bag"></i>
@@ -44,7 +44,7 @@
               <div class="inner">
                 <h3>53</h3>
 
-                <p>Daily Sales</p>
+                <p>Daily Creditors Transcaction</p>
               </div>
               <div class="icon">
                 <i class="ion ion-stats-bars"></i>
@@ -59,7 +59,7 @@
               <div class="inner">
                 <h3>44</h3>
 
-                <p>Daily User Registrations</p>
+                <p>Reach Reorder Limiit</p>
               </div>
               <div class="icon">
                 <i class="ion ion-person-add"></i>
@@ -74,7 +74,7 @@
               <div class="inner">
                 <h3>65</h3>
 
-                <p>Daily Item Registration</p>
+                <p>Total Oustandings</p>
               </div>
               <div class="icon">
                 <i class="ion ion-pie-graph"></i>
