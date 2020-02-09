@@ -72,6 +72,12 @@
                 </a>
               </li>
               <li class="nav-item">
+                <a href="pages/layout/top-nav.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Stock Return</p>
+                </a>
+              </li>
+              <li class="nav-item">
                 <a href="pages/layout/boxed.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Payments</p>
@@ -92,6 +98,12 @@
                 <a href="pages/layout/top-nav.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Stock In</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="pages/layout/top-nav.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Stock Return</p>
                 </a>
               </li>
               <li class="nav-item">
@@ -121,6 +133,12 @@
                 <a href="pages/layout/boxed.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Stock Out</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="pages/layout/boxed.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Stock Return</p>
                 </a>
               </li>
             </ul>
