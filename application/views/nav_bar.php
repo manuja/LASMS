@@ -49,7 +49,7 @@
                 </a>
               </li>
 	       <li class="nav-item">
-                <a href="<?php echo base_url('/login.php/login')?>" class="nav-link">
+                <a href="<?php echo base_url('/index.php/login/index')?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Login</p>
                 </a>
