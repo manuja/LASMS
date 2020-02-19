@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Customer extends CI_Controller {
+class Suppliers extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -22,7 +22,7 @@ class Customer extends CI_Controller {
 	{
 		$this->load->view('header');
 		$this->load->view('nav_bar');
-		$this->load->view('customer/customer_add');
+		$this->load->view('supplier/supplier_add');
 		$this->load->view('footer');
 	}
 }

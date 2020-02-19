@@ -5,12 +5,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark">Debtors Registration</h1>
+            <h4>Creditors Registration</h4>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">HRM module</a></li>
-              <li class="breadcrumb-item active">Debtors</li>
+              <li class="breadcrumb-item active">Creditors</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -28,57 +28,35 @@
             <!-- general form elements -->
             <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">Quick Example</h3>
+                <h3 class="card-title">Creditors Registration Information</h3>
               </div>
               <!-- /.card-header -->
               <!-- form start -->
               <form class="form-horizontal">
                 <div class="card-body">
                   <div class="form-group row">
-                    <label for="Debtors Name" class="col-sm-2 col-form-label">Debtors Name</label>
+                    <label for="Creditors Name" class="col-sm-2 col-form-label">Creditor Name</label>
                     <div class="col-sm-4">
-                      <input type="text" class="form-control" id="cusname" placeholder="Customer Name">
+                      <input type="text" class="form-control" id="credname" placeholder="Creditor Name">
                     </div>
+                    <label for="Creditors Address" class="col-sm-2 col-form-label">Creditor Address</label>
+                    <div class="col-sm-4">
+                      <input type="text" class="form-control" id="supadd" placeholder="Address">
+                    </div>
+                     
                   </div>
                   <div class="form-group row">
-                    <label for="Debtors Address" class="col-sm-2 col-form-label">Debtors Address</label>
+                    <label for="Creditors Contact No" class="col-sm-2 col-form-label">Contact No</label>
                     <div class="col-sm-4">
-                      <input type="text" class="form-control" id="cusadd" placeholder="Address">
+                      <input type="text" class="form-control" id="supcontact" placeholder="Contact No">
                     </div>
                   </div>
-                  <div class="form-group row">
-                    <label for="Contact No" class="col-sm-2 col-form-label">Contact No</label>
-                    <div class="col-sm-4">
-                      <input type="text" class="form-control" id="cuscontact" placeholder="Contact No">
-                    </div>
-                  </div>
-                  <div class="form-group row">
-                    <label for="Credit Limit" class="col-sm-2 col-form-label">Credit Limit</label>
-                    <div class="col-sm-4">
-                      <input type="text" class="form-control" id="cuscreaditlim" placeholder="Credit limit">
-                    </div>
-                  </div>
-
-                  <div class="form-group">
-                  <label>Date range:</label>
-
-                  <div class="input-group">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text">
-                        <i class="far fa-calendar-alt"></i>
-                      </span>
-                    </div>
-                    <input type="text" class="form-control float-right" id="reservation">
-                  </div>
-                  <!-- /.input group -->
-                </div>
-
                   
-                 
+                  <!-- /.input group -->
                 </div>
                 <!-- /.card-body -->
                 <div class="card-footer">
-                  <button type="submit" class="btn btn-info">Sign in</button>
+                  <button type="submit" class="btn btn-info">Save</button>
                   <button type="reset" class="btn btn-default float-right">Cancel</button>
                 </div>
                 <!-- /.card-footer -->

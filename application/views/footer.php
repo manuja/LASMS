@@ -52,5 +52,6 @@
     $('#reservation').daterangepicker()
     })
 </script>
+
 </body>
 </html>
