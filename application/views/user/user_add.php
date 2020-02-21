@@ -28,7 +28,7 @@
             <!-- general form elements -->
             <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">User Registration Information</h3>
+                <h3 class="card-title">Add New User</h3>
               </div>
               <!-- /.card-header -->
               <!-- form start -->
@@ -59,6 +59,183 @@
             </div>
 
           </div>
+
+           <div class="col-md-12">
+            <div class="card">
+            <div class="card-header">
+              <h3 class="card-title">System User Grid</h3>
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body">
+              <table id="usergrid" class="table table-bordered table-striped">
+                <thead>
+                <tr>
+                  <th style="width:10%">User Id</th>
+                  <th style="width:20%">Username</th>
+                  <th style="width:20%">User Status</th>
+                  <th>Action</th>
+                  
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>ujitham
+                  </td>
+                  <td>Active</td>
+                  <td>
+                   
+                    <button type="button" class="btn btn-primary" >View</button>
+                    <button type="button" class="btn btn-success" >Edit</button>
+                    <button type="button" class="btn btn-danger" >Delete</button>
+                  </td>
+
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>ujitham
+                  </td>
+                  <td>Active</td>
+                  <td>
+                   
+                    <button type="button" class="btn btn-primary" >View</button>
+                    <button type="button" class="btn btn-success" >Edit</button>
+                    <button type="button" class="btn btn-danger" >Delete</button>
+                  </td>
+
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>ujitham
+                  </td>
+                  <td>Active</td>
+                  <td>
+                   
+                    <button type="button" class="btn btn-primary" >View</button>
+                    <button type="button" class="btn btn-success" >Edit</button>
+                    <button type="button" class="btn btn-danger" >Delete</button>
+                  </td>
+
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>ujitham
+                  </td>
+                  <td>Active</td>
+                  <td>
+                   
+                    <button type="button" class="btn btn-primary" >View</button>
+                    <button type="button" class="btn btn-success" >Edit</button>
+                    <button type="button" class="btn btn-danger" >Delete</button>
+                  </td>
+
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>ujitham
+                  </td>
+                  <td>Active</td>
+                  <td>
+                   
+                    <button type="button" class="btn btn-primary" >View</button>
+                    <button type="button" class="btn btn-success" >Edit</button>
+                    <button type="button" class="btn btn-danger" >Delete</button>
+                  </td>
+
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>ujitham
+                  </td>
+                  <td>Active</td>
+                  <td>
+                   
+                    <button type="button" class="btn btn-primary" >View</button>
+                    <button type="button" class="btn btn-success" >Edit</button>
+                    <button type="button" class="btn btn-danger" >Delete</button>
+                  </td>
+
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>ujitham
+                  </td>
+                  <td>Active</td>
+                  <td>
+                   
+                    <button type="button" class="btn btn-primary" >View</button>
+                    <button type="button" class="btn btn-success" >Edit</button>
+                    <button type="button" class="btn btn-danger" >Delete</button>
+                  </td>
+
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>ujitham
+                  </td>
+                  <td>Active</td>
+                  <td>
+                   
+                    <button type="button" class="btn btn-primary" >View</button>
+                    <button type="button" class="btn btn-success" >Edit</button>
+                    <button type="button" class="btn btn-danger" >Delete</button>
+                  </td>
+
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>ujitham
+                  </td>
+                  <td>Active</td>
+                  <td>
+                   
+                    <button type="button" class="btn btn-primary" >View</button>
+                    <button type="button" class="btn btn-success" >Edit</button>
+                    <button type="button" class="btn btn-danger" >Delete</button>
+                  </td>
+
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>ujitham
+                  </td>
+                  <td>Active</td>
+                  <td>
+                   
+                    <button type="button" class="btn btn-primary" >View</button>
+                    <button type="button" class="btn btn-success" >Edit</button>
+                    <button type="button" class="btn btn-danger" >Delete</button>
+                  </td>
+
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>ujitham
+                  </td>
+                  <td>Active</td>
+                  <td>
+                   
+                    <button type="button" class="btn btn-primary" >View</button>
+                    <button type="button" class="btn btn-success" >Edit</button>
+                    <button type="button" class="btn btn-danger" >Delete</button>
+                  </td>
+
+                </tr>
+               
+                </tbody>
+                <tfoot>
+                <tr>
+                  <th>User Id</th>
+                  <th>Username</th>
+                  <th>User Status</th>
+                  <th>Action</th>
+                </tr>
+                </tfoot>
+              </table>
+            </div>
+            <!-- /.card-body -->
+          </div>
+          </div>
           <!--/.col (right) -->
         </div>
         <!-- /.row -->
@@ -66,4 +243,6 @@
     </section>
     <!-- /.content -->
   </div>
+
+
 
