@@ -61,6 +61,8 @@
     $("#usergrid").DataTable();
     $("#debtgrid").DataTable();
     $("#credgrid").DataTable();
+     $("#invoicegrid").DataTable();
+    
     
    
   });
