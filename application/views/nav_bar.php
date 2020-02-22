@@ -96,7 +96,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/layout/boxed.html" class="nav-link">
+                <a href="<?php echo base_url('/index.php/deptors_payment/index')?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Depter Payments Mgt.</p>
                 </a>
@@ -148,7 +148,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/layout/boxed.html" class="nav-link">
+                <a href="<?php echo base_url('/index.php/stock_out/index')?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Stock Out</p>
                 </a>
