@@ -19,7 +19,7 @@
     <!-- /.content-header -->
 
     <!-- Main content -->
-      <!-- Main content -->
+    <!-- Main content -->
     <section class="content">
       <div class="container-fluid">
         <div class="row">
@@ -43,7 +43,7 @@
                     <div class="col-sm-4">
                       <input type="text" class="form-control" id="cusadd" placeholder="Address">
                     </div>
-                     
+
                   </div>
                   <div class="form-group row">
                     <label for="Contact No" class="col-sm-2 col-form-label">Contact No</label>
@@ -54,18 +54,18 @@
                     <div class="col-sm-4">
                       <input type="text" class="form-control" id="cuscreaditlim" placeholder="Credit limit">
                     </div>
-                     
+
                   </div>
                   <div class="form-group row">
                     <label for="Credit Limit" class="col-sm-2 col-form-label">Credit Period</label>
-                     <div class="input-group row col-sm-4">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text">
-                        <i class="far fa-calendar-alt"></i>
-                      </span>
-                    </div class="col-sm-4">
-                    <input type="text" class="form-control float-right" id="reservation">
-                  </div>
+                    <div class="input-group row col-sm-4">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">
+                          <i class="far fa-calendar-alt"></i>
+                        </span>
+                      </div class="col-sm-4">
+                      <input type="text" class="form-control float-right" id="reservation">
+                    </div>
                   </div>
                   <!-- /.input group -->
                 </div>
@@ -81,62 +81,62 @@
           </div>
           <div class="col-md-12">
             <div class="card">
-            <div class="card-header">
-              <h3 class="card-title">Debtors Grid</h3>
-            </div>
-            <!-- /.card-header -->
-            <div class="card-body">
-              <table id="debtgrid" class="table table-bordered table-striped">
-                <thead>
-                <tr>
-                  <th style="width:20%">Debtor Id</th>
-                  <th style="width:20%">Debtors Name</th>
-                  <th style="width:20%">Debtors Contect No</th>
-                  <th>Action</th>
-                  
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                  <td>1</td>
-                  <td>ujitham
-                  </td>
-                  <td>0713546276</td>
-                  <td>
-                   
-                    <button type="button" class="btn btn-primary" >View</button>
-                    <button type="button" class="btn btn-success" >Edit</button>
-                    <button type="button" class="btn btn-danger" >Delete</button>
-                  </td>
+              <div class="card-header">
+                <h3 class="card-title">Debtors Grid</h3>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                <table id="debtgrid" class="table table-bordered table-striped">
+                  <thead>
+                    <tr>
+                      <th style="width:20%">Debtor Id</th>
+                      <th style="width:20%">Debtors Name</th>
+                      <th style="width:20%">Debtors Contect No</th>
+                      <th>Action</th>
 
-                </tr>
-                <tr>
-                  <td>1</td>
-                  <td>ujitham
-                  </td>
-                 <td>0713006076</td>
-                  <td>
-                   
-                    <button type="button" class="btn btn-primary" >View</button>
-                    <button type="button" class="btn btn-success" >Edit</button>
-                    <button type="button" class="btn btn-danger" >Delete</button>
-                  </td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>ujitham
+                      </td>
+                      <td>0713546276</td>
+                      <td>
 
-                </tr>
-                             
-                </tbody>
-                <tfoot>
-                <tr>
-                 <th style="width:20%">Debtor Id</th>
-                  <th style="width:20%">Debtors Name</th>
-                  <th style="width:20%">Debtors Contect No</th>
-                  <th>Action</th>
-                </tr>
-                </tfoot>
-              </table>
+                        <button type="button" class="btn btn-primary">View</button>
+                        <button type="button" class="btn btn-success">Edit</button>
+                        <button type="button" class="btn btn-danger">Delete</button>
+                      </td>
+
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>ujitham
+                      </td>
+                      <td>0713006076</td>
+                      <td>
+
+                        <button type="button" class="btn btn-primary">View</button>
+                        <button type="button" class="btn btn-success">Edit</button>
+                        <button type="button" class="btn btn-danger">Delete</button>
+                      </td>
+
+                    </tr>
+
+                  </tbody>
+                  <tfoot>
+                    <tr>
+                      <th style="width:20%">Debtor Id</th>
+                      <th style="width:20%">Debtors Name</th>
+                      <th style="width:20%">Debtors Contect No</th>
+                      <th>Action</th>
+                    </tr>
+                  </tfoot>
+                </table>
+              </div>
+              <!-- /.card-body -->
             </div>
-            <!-- /.card-body -->
-          </div>
           </div>
           <!--/.col (right) -->
         </div>
@@ -145,4 +145,3 @@
     </section>
     <!-- /.content -->
   </div>
-

@@ -19,7 +19,7 @@
     <!-- /.content-header -->
 
     <!-- Main content -->
-      <!-- Main content -->
+    <!-- Main content -->
     <section class="content">
       <div class="container-fluid">
         <div class="row">
@@ -36,11 +36,11 @@
                 <div class="card-body">
                   <div class="form-group row">
                     <label for="Debtors Name" class="col-sm-2 col-form-label">Stockin Id</label>
-                     <div class="col-sm-4">
-                      
+                    <div class="col-sm-4">
+
                       <!-- select -->
                       <div class="form-group">
-                      
+
                         <select class="form-control">
                           <option>001</option>
                           <option>002</option>
@@ -49,13 +49,13 @@
                           <option>055</option>
                         </select>
                       </div>
-                    
+
                     </div>
                     <label for="Debtors Address" class="col-sm-2 col-form-label">Stock Out Quantity</label>
                     <div class="col-sm-4">
                       <input type="text" class="form-control" id="stockoutquantity" placeholder="Quantity">
                     </div>
-                     
+
                   </div>
                   <!-- /.input group -->
                 </div>
@@ -71,63 +71,63 @@
           </div>
           <div class="col-md-12">
             <div class="card">
-            <div class="card-header">
-              <h3 class="card-title">Stock Out Grid</h3>
-            </div>
-            <!-- /.card-header -->
-            <div class="card-body">
-              <table id="stockout" class="table table-bordered table-striped">
-                <thead>
-                <tr>
-                  <th style="width:20%">Stock Out Id</th>
-                  <th style="width:20%">Stock Out Quantity</th>
-                  <th style="width:20%">Stock Out Quantity Date</th>
-                  <th>Action</th>
-                  
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                  <td>001</td>
-                  <td>1000kg
-                  </td>
-                  <td>2020-01-01</td>
-                  <td>
-                   
-                    <button type="button" class="btn btn-primary" >View</button>
-                    <button type="button" class="btn btn-success" >Edit</button>
-                    <button type="button" class="btn btn-danger" >Delete</button>
-                    
-                  </td>
+              <div class="card-header">
+                <h3 class="card-title">Stock Out Grid</h3>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                <table id="stockout" class="table table-bordered table-striped">
+                  <thead>
+                    <tr>
+                      <th style="width:20%">Stock Out Id</th>
+                      <th style="width:20%">Stock Out Quantity</th>
+                      <th style="width:20%">Stock Out Quantity Date</th>
+                      <th>Action</th>
 
-                </tr>
-                <tr>
-                  <td>002</td>
-                  <td>200kg
-                  </td>
-                 <td>2020-01-09</td>
-                  <td>
-                   
-                    <button type="button" class="btn btn-primary" >View</button>
-                    <button type="button" class="btn btn-success" >Edit</button>
-                    <button type="button" class="btn btn-danger" >Delete</button>
-                  </td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>001</td>
+                      <td>1000kg
+                      </td>
+                      <td>2020-01-01</td>
+                      <td>
 
-                </tr>
-                             
-                </tbody>
-                <tfoot>
-                <tr>
-                  <th style="width:20%">Stock Out Id</th>
-                  <th style="width:20%">Stock Out Quantity</th>
-                  <th style="width:20%">Stock Out Quantity Date</th>
-                  <th>Action</th>
-                </tr>
-                </tfoot>
-              </table>
+                        <button type="button" class="btn btn-primary">View</button>
+                        <button type="button" class="btn btn-success">Edit</button>
+                        <button type="button" class="btn btn-danger">Delete</button>
+
+                      </td>
+
+                    </tr>
+                    <tr>
+                      <td>002</td>
+                      <td>200kg
+                      </td>
+                      <td>2020-01-09</td>
+                      <td>
+
+                        <button type="button" class="btn btn-primary">View</button>
+                        <button type="button" class="btn btn-success">Edit</button>
+                        <button type="button" class="btn btn-danger">Delete</button>
+                      </td>
+
+                    </tr>
+
+                  </tbody>
+                  <tfoot>
+                    <tr>
+                      <th style="width:20%">Stock Out Id</th>
+                      <th style="width:20%">Stock Out Quantity</th>
+                      <th style="width:20%">Stock Out Quantity Date</th>
+                      <th>Action</th>
+                    </tr>
+                  </tfoot>
+                </table>
+              </div>
+              <!-- /.card-body -->
             </div>
-            <!-- /.card-body -->
-          </div>
           </div>
           <!--/.col (right) -->
         </div>
@@ -136,4 +136,3 @@
     </section>
     <!-- /.content -->
   </div>
-

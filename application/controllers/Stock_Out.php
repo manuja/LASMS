@@ -1,7 +1,8 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
-class Stock_Out extends CI_Controller {
+class Stock_Out extends CI_Controller
+{
 
 	/**
 	 * Index Page for this controller.
