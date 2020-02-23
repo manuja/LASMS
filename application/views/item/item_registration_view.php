@@ -179,7 +179,7 @@
   </div>
 
 
-  <!-- ITEM CATEGORY MODEL -->
+  <!-- ITEM CATEGORY MODAL -->
   <div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
@@ -253,7 +253,7 @@
     </div>
   </div>
 
-  <!-- ITEM UNITS -->
+  <!-- ITEM UNITS MODAL-->
   <div class="modal fade bd-example-modal-lg" id="unitModel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">

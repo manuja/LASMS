@@ -46,13 +46,24 @@
  <script src="<?php echo base_url('assets/dist/js/demo.js') ?>"></script>
  <script src="<?php echo base_url('assets/plugins/datatables/jquery.dataTables.js') ?>"></script>
  <script src="<?php echo base_url('assets/plugins/datatables-bs4/js/dataTables.bootstrap4.js') ?>"></script>
+ <!-- DATE PICKER FROM https://gijgo.com/datepicker/example/bootstrap-4 BY CHOLITHA -->
+ <script src="<?php echo base_url('assets/build/js/gijgo.min.js') ?>" type="text/javascript"></script>
+
+ <!-- Bootstrap Switch -->
+<script src="<?php echo base_url('assets/plugins/bootstrap-switch/js/bootstrap-switch.min.js') ?>"></script>
 
 
  <!-- Page script -->
  <script>
    $(function() {
      //Date range picker
-     $('#reservation').daterangepicker()
+     $('#expireDate').datepicker({
+       uiLibrary: 'bootstrap4'
+     });
+     $('#reservation').daterangepicker();
+     $("input[data-bootstrap-switch]").each(function() {
+       $(this).bootstrapSwitch('state', $(this).prop('checked'));
+     });
    })
  </script>
 
@@ -64,6 +75,7 @@
      $("#invoicegrid").DataTable();
      $("#itemGrid").DataTable();
      $("#mappingGrid").DataTable();
+     $("#grnItemsGrid").DataTable();
    });
  </script>
 
