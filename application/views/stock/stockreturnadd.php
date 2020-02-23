@@ -35,7 +35,7 @@
               <form class="form-horizontal">
                 <div class="card-body">
                   <div class="form-group row">
-                    <label for="Debtors Name" class="col-sm-2 col-form-label">Stock Out Id</label>
+                    <label for="Debtors Name" class="col-sm-2 col-form-label">Stock In Id</label>
                      <div class="col-sm-4">
                       
                       <!-- select -->
